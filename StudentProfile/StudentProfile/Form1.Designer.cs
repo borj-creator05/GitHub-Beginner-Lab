@@ -37,9 +37,9 @@
             label1.Location = new Point(0, 0);
             label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(339, 27);
+            label1.Size = new Size(400, 27);
             label1.TabIndex = 0;
-            label1.Text = "Student Profile — Juan Dela Cruz";
+            label1.Text = "Student Profile — GitHub Beginner Lab";
             // 
             // Form1
             // 
