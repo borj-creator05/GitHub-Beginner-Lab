@@ -47,9 +47,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(0, 55);
             label2.Name = "label2";
-            label2.Size = new Size(316, 27);
+            label2.Size = new Size(328, 27);
             label2.TabIndex = 1;
-            label2.Text = "Contact Number: 09171234567";
+            label2.Text = "Contact Number: 0917 123 4567";
             // 
             // Form1
             // 
