@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -51,11 +52,21 @@
             label2.TabIndex = 1;
             label2.Text = "Contact Number: 0917 123 4567";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(0, 98);
+            label3.Name = "label3";
+            label3.Size = new Size(383, 27);
+            label3.TabIndex = 2;
+            label3.Text = "Email Address: student@example.com";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 27F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(712, 550);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
             Font = new Font("Times New Roman", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -70,5 +81,6 @@
 
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }
