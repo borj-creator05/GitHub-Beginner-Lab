@@ -31,6 +31,7 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -61,11 +62,21 @@
             label3.TabIndex = 2;
             label3.Text = "Email Address: student@example.com";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(0, 143);
+            label4.Name = "label4";
+            label4.Size = new Size(124, 27);
+            label4.TabIndex = 3;
+            label4.Text = "Year Level:";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(13F, 27F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(712, 550);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -82,5 +93,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Label label4;
     }
 }
