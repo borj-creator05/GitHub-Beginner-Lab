@@ -65,11 +65,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(0, 144);
-            label4.Name = "label4";
-            label4.Size = new Size(142, 27);
-            label4.TabIndex = 3;
-            label4.Text = "Year Level: 4";
+
             // 
             // Form1
             // 
